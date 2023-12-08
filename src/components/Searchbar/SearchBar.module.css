@@ -1,0 +1,77 @@
+.search {
+  background-image: linear-gradient(
+      rgba(253, 252, 252, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url(../../img/blur.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
+.header {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.headerLogo {
+  letter-spacing: 0.05em;
+  color: white;
+  padding: 15px 0 15px 5px;
+  font-size: 19px;
+  font-weight: 200;
+  line-height: 1.17;
+  display: flex;
+  text-decoration: none;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 25px 0 70px;
+}
+.searchTitle {
+  color: #ffffff;
+  text-shadow: 7px 5px 9px #000;
+  margin-bottom: 15px;
+  font-size: 41px;
+  font-weight: 100;
+}
+.searchForm {
+  background-color: var(--WHITE);
+  border: none;
+  border-radius: 50px;
+  width: 350px;
+  height: 35px;
+  display: flex;
+  overflow: hidden;
+}
+.heroInput {
+  text-align: left;
+  color: grey;
+  background-color: white;
+  border: none;
+  outline: transparent;
+  flex: 1;
+  padding-left: 21px;
+  font-size: 11px;
+  position: relative;
+}
+.btn {
+  letter-spacing: 0.02em;
+  color: white;
+  background-color: rgb(67, 67, 97);
+  cursor: pointer;
+  border: none;
+  width: 75px;
+  padding: 4px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 1.5;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
