@@ -8,6 +8,7 @@
   background-position: center;
   background-size: cover;
   height: 350px;
+  margin-bottom: 15px;
 }
 .header {
   margin: 0 auto;
@@ -64,12 +65,12 @@
 .btn {
   letter-spacing: 0.02em;
   color: white;
-  background-color: rgb(67, 67, 97);
+  background-color: rgb(34, 34, 48);
   cursor: pointer;
   border: none;
   width: 75px;
   padding: 4px;
-  font-size: 11px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 200;
   line-height: 1.5;

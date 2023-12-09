@@ -87,7 +87,7 @@ export class App extends React.Component {
   render() {
     return (
       <>
-        <SearchBar onSubmit={this.handleSearchSubmit} />;
+        <SearchBar onSubmit={this.handleSearchSubmit} />
         <ImageGallery
           setActiveImage={this.setActiveImage}
           images={this.state.hits}
